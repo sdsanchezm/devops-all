@@ -1,0 +1,51 @@
+# YAML Example Syntax quick Reference
+details:
+  name: "Jamecho"
+  description: "The dog" #this is text
+  author: TheNairo'sFather #this is also text
+  likes: 3399
+  age: 20
+  hours: 3.5
+  ## boolean
+  channel: false
+  ## on off
+  channel2: off
+  ## yes no
+  channel3: no
+  comments: true #like this
+anotherobject:
+  property1: asdasd
+  property2: qweqwe
+dogs:
+- Name: Azabache
+  color: grey
+  year: 2014
+- Name: Nairo
+  color: purple
+  number: 44
+cats:
+- Name: Jara
+  age: 22
+  Lives:
+    - First: no
+    - Second: no
+    - Third: yes
+  langs: [c#, js, ts]
+- Name: Tiche
+  multiLine: | # this will recognize the line breaks
+    this is a
+    multiline item
+    can add multiple
+    lines here
+  age: 55.1
+  anotherMultiLine: > # this will NOT recognize the line breaks
+    this line will be 
+    shown as online 1 line
+    will not recognize lines breaks
+lists: # this is a list
+  - item1: 1
+  - item2: 2
+  - item3: 3
+envVars:
+  var1: ${PATH_2}
+
