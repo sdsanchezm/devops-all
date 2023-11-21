@@ -16,6 +16,9 @@
 
 - MS List of Templates
     - [https://github.com/microsoft/azure-pipelines-yaml/tree/master/templates]
+  
 
+## github Actions Example
 
+- [https://docs.github.com/en/actions/examples]
 
